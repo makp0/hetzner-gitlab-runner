@@ -52,7 +52,7 @@ version: "3.8"
 
 services:
   hetzner-runner:
-    image: mawalu/hetzner-gitlab-runner:latest
+    image: marcnuetzel/hetzner-gitlab-runner:latest
     volumes:
       - "./hetzner_config:/etc/gitlab-runner"
 ```
